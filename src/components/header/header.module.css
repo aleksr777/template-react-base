@@ -1,0 +1,14 @@
+.main__header {
+  position: relative;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgba(23, 26, 73, 0.396);
+  min-height: 50px;
+  width: 100%;
+  padding: 0;
+}

@@ -1,0 +1,13 @@
+.main__content {
+  position: relative;
+  margin: 0;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0;
+}
