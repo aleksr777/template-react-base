@@ -4,13 +4,12 @@ import Content from '../content/content';
 import Footer from '../footer/footer';
 
 const AppLayout = () => {
-  const containerClass = `${styles.main__container} ${styles.container}`;
 
   return (
     <div className={styles.main}>
-      <Header containerClass={containerClass} />
-      <Content containerClass={containerClass} />
-      <Footer containerClass={containerClass} />
+      <Header containerClass={styles.main__container} />
+      <Content containerClass={styles.main__container} />
+      <Footer containerClass={styles.main__container} />
     </div>
   );
 };
