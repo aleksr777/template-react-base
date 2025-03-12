@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react-swc';
 export default defineConfig({
   plugins: [react()],
   base: '/',
-  //base: '/template-react-project', // для gh-pages
+  //base: '/template-react-base', // для gh-pages
 });
